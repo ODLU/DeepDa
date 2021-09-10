@@ -8,6 +8,16 @@
 import UIKit
 
 class LoginView: BaseView {
+    
+    private let identifierLabel: UILabel = {
+        let label = UILabel()
+        return label
+    }()
+    
+    private let passwordLabel: UILabel = {
+        let label = UILabel()
+        return label
+    }()
     override func setup() {
         print("HI")
     }
