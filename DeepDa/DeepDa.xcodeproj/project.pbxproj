@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,7 @@
 		D1E3C33326EA653400D975EE /* BaseViewControllerable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3C33226EA653400D975EE /* BaseViewControllerable.swift */; };
 		D1E3C33526EA658D00D975EE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3C33426EA658D00D975EE /* LoginViewController.swift */; };
 		D1E3C35D26EAF2D100D975EE /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3C35C26EAF2D100D975EE /* UIView+.swift */; };
+		D1E3C36026EAFB7C00D975EE /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D1E3C35F26EAFB7C00D975EE /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1E3C36026EAFB7C00D975EE /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +154,9 @@
 			dependencies = (
 			);
 			name = DeepDa;
+			packageProductDependencies = (
+				D1E3C35F26EAFB7C00D975EE /* SnapKit */,
+			);
 			productName = DeepDa;
 			productReference = D19FA63226EA5F4600DCA71F /* DeepDa.app */;
 			productType = "com.apple.product-type.application";
@@ -179,6 +184,9 @@
 				Base,
 			);
 			mainGroup = D19FA62926EA5F4600DCA71F;
+			packageReferences = (
+				D1E3C35E26EAFB7C00D975EE /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = D19FA63326EA5F4600DCA71F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -417,6 +425,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D1E3C35E26EAFB7C00D975EE /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D1E3C35F26EAFB7C00D975EE /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1E3C35E26EAFB7C00D975EE /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D19FA62A26EA5F4600DCA71F /* Project object */;
 }
