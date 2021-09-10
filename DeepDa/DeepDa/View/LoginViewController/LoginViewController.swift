@@ -15,6 +15,7 @@ class LoginViewController: BaseViewController {
         // Do any additional setup after loading the view.
     }
     override func setup() {
-        print("LoginView")
+        self.view = LoginView()
+        self.navigationController?.navigationBar.isHidden = true
     }
 }
