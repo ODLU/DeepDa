@@ -19,6 +19,7 @@
 		D1E3C33126EA640C00D975EE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3C33026EA640C00D975EE /* LoginView.swift */; };
 		D1E3C33326EA653400D975EE /* BaseViewControllerable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3C33226EA653400D975EE /* BaseViewControllerable.swift */; };
 		D1E3C33526EA658D00D975EE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3C33426EA658D00D975EE /* LoginViewController.swift */; };
+		D1E3C35D26EAF2D100D975EE /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3C35C26EAF2D100D975EE /* UIView+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		D1E3C33026EA640C00D975EE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		D1E3C33226EA653400D975EE /* BaseViewControllerable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewControllerable.swift; sourceTree = "<group>"; };
 		D1E3C33426EA658D00D975EE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D1E3C35C26EAF2D100D975EE /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		D19FA64B26EA5FCF00DCA71F /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				D1E3C35B26EAF2B700D975EE /* Extensions */,
 				D19FA63E26EA5F4800DCA71F /* Assets.xcassets */,
 				D19FA64326EA5F4800DCA71F /* Info.plist */,
 			);
@@ -123,6 +126,14 @@
 				D1E3C33426EA658D00D975EE /* LoginViewController.swift */,
 			);
 			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		D1E3C35B26EAF2B700D975EE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D1E3C35C26EAF2D100D975EE /* UIView+.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +210,7 @@
 				D19FA63A26EA5F4600DCA71F /* ViewController.swift in Sources */,
 				D1E3C33126EA640C00D975EE /* LoginView.swift in Sources */,
 				D1E3C32A26EA620500D975EE /* BaseViewController.swift in Sources */,
+				D1E3C35D26EAF2D100D975EE /* UIView+.swift in Sources */,
 				D1E3C32C26EA621C00D975EE /* BaseView.swift in Sources */,
 				D1E3C33326EA653400D975EE /* BaseViewControllerable.swift in Sources */,
 				D1E3C32F26EA62F300D975EE /* BaseViewable.swift in Sources */,
