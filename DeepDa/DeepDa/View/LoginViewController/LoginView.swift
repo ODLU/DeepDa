@@ -13,6 +13,13 @@ class LoginView: BaseView {
         static let margin: CGFloat = 10
     }
     
+    private let containerTableView: UITableView = {
+        let tableView = UITableView()
+        
+        
+        return tableView
+    }()
+    
     private let identifierTextField: UITextField = {
         let textField = UITextField()
         textField.placeholder = "아이디를 입력하세요."
@@ -29,9 +36,14 @@ class LoginView: BaseView {
         return textField
     }()
     
+    private let mainLogoImage: UIImageView = {
+        let imageView = UIImageView()
+        return imageView
+    }()
+    
     override func setup() {
         self.backgroundColor = .white
-        addSubviews(identifierTextField, passwordTextField)
+        addSubviews(mainLogoImage,identifierTextField, passwordTextField)
     }
     override func setupUI() {
         NSLayoutConstraint.activate([identifierTextField.centerXAnchor.constraint(equalTo: self.centerXAnchor),
