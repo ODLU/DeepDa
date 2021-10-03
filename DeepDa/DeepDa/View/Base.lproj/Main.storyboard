@@ -89,7 +89,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="333"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="2hq-Rv-43R" userLabel="mainImage">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KL Memoji.png" translatesAutoresizingMaskIntoConstraints="NO" id="2hq-Rv-43R" userLabel="mainImage">
                                                     <rect key="frame" x="69.5" y="29" width="275" height="275"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="275" id="FnS-3B-fpa"/>
@@ -268,7 +268,7 @@
                         <sections>
                             <tableViewSection id="bTT-yY-Hkd">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="80" id="z0b-0x-NUj">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="IDCell" rowHeight="80" id="z0b-0x-NUj">
                                         <rect key="frame" x="0.0" y="24.5" width="414" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="z0b-0x-NUj" id="Wjk-6p-SbS">
@@ -480,10 +480,17 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="9vs-Df-G1r"/>
+                    <connections>
+                        <outlet property="EmailTextField" destination="z9v-Rm-2E9" id="wVc-gP-nSo"/>
+                        <outlet property="NicknameTextField" destination="JrN-L3-Z3X" id="Ncd-ox-UkE"/>
+                        <outlet property="identifierTextField" destination="Ggu-0I-MR7" id="mXl-Wa-wCR"/>
+                        <outlet property="passwordCheckTextField" destination="faW-en-Qry" id="e1K-LT-atM"/>
+                        <outlet property="passwordTextField" destination="MoW-IC-A18" id="IKn-IN-2jf"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UrT-Be-JYU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1039" y="797"/>
+            <point key="canvasLocation" x="-1039" y="791"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="3Xk-Eo-uNh">
@@ -525,7 +532,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="backgroundImage" width="3024" height="4032"/>
+        <image name="KL Memoji.png" width="1024" height="1024"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
