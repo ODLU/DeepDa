@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D165FF2D2709AF7B0047402F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D165FF2C2709AF7B0047402F /* NetworkManager.swift */; };
+		D165FF302709B0FB0047402F /* NetworkingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D165FF2F2709B0FB0047402F /* NetworkingError.swift */; };
+		D165FF332709B3CC0047402F /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D165FF322709B3CC0047402F /* Diary.swift */; };
+		D165FF352709B4430047402F /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D165FF342709B4430047402F /* ErrorResponse.swift */; };
+		D165FF372709B6A80047402F /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = D165FF362709B6A80047402F /* HttpMethod.swift */; };
+		D165FF392709B7360047402F /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D165FF382709B7360047402F /* ContentType.swift */; };
+		D165FF3B2709BE370047402F /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = D165FF3A2709BE370047402F /* Login.swift */; };
 		D19FA63626EA5F4600DCA71F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19FA63526EA5F4600DCA71F /* AppDelegate.swift */; };
 		D19FA63826EA5F4600DCA71F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19FA63726EA5F4600DCA71F /* SceneDelegate.swift */; };
-		D19FA63A26EA5F4600DCA71F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19FA63926EA5F4600DCA71F /* ViewController.swift */; };
+		D19FA63A26EA5F4600DCA71F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19FA63926EA5F4600DCA71F /* SignUpViewController.swift */; };
 		D19FA63D26EA5F4600DCA71F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D19FA63B26EA5F4600DCA71F /* Main.storyboard */; };
 		D19FA63F26EA5F4800DCA71F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D19FA63E26EA5F4800DCA71F /* Assets.xcassets */; };
 		D19FA64226EA5F4800DCA71F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D19FA64026EA5F4800DCA71F /* LaunchScreen.storyboard */; };
+		D1B17F2326FDB5FE00908E94 /* FormTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B17F2226FDB5FE00908E94 /* FormTextField.swift */; };
+		D1B17F2626FDDFED00908E94 /* FormButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B17F2526FDDFED00908E94 /* FormButton.swift */; };
+		D1B17F2C26FE30E000908E94 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1B17F2B26FE30E000908E94 /* GoogleService-Info.plist */; };
 		D1E3C32A26EA620500D975EE /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3C32926EA620500D975EE /* BaseViewController.swift */; };
 		D1E3C32C26EA621C00D975EE /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3C32B26EA621C00D975EE /* BaseView.swift */; };
 		D1E3C32F26EA62F300D975EE /* BaseViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3C32E26EA62F300D975EE /* BaseViewable.swift */; };
@@ -21,17 +31,31 @@
 		D1E3C33526EA658D00D975EE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3C33426EA658D00D975EE /* LoginViewController.swift */; };
 		D1E3C35D26EAF2D100D975EE /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3C35C26EAF2D100D975EE /* UIView+.swift */; };
 		D1E3C36026EAFB7C00D975EE /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D1E3C35F26EAFB7C00D975EE /* SnapKit */; };
+		FDC4B909DE0079E2074CA93B /* Pods_DeepDa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD5F706F9851594DAFD7FCA /* Pods_DeepDa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		485003D1A2D3B476C7FF0348 /* Pods-DeepDa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepDa.release.xcconfig"; path = "Target Support Files/Pods-DeepDa/Pods-DeepDa.release.xcconfig"; sourceTree = "<group>"; };
+		94855DD92370B97821E5E028 /* Pods-DeepDa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepDa.debug.xcconfig"; path = "Target Support Files/Pods-DeepDa/Pods-DeepDa.debug.xcconfig"; sourceTree = "<group>"; };
+		CAD5F706F9851594DAFD7FCA /* Pods_DeepDa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeepDa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D165FF2C2709AF7B0047402F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		D165FF2F2709B0FB0047402F /* NetworkingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingError.swift; sourceTree = "<group>"; };
+		D165FF322709B3CC0047402F /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
+		D165FF342709B4430047402F /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		D165FF362709B6A80047402F /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
+		D165FF382709B7360047402F /* ContentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentType.swift; sourceTree = "<group>"; };
+		D165FF3A2709BE370047402F /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		D19FA63226EA5F4600DCA71F /* DeepDa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepDa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D19FA63526EA5F4600DCA71F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D19FA63726EA5F4600DCA71F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D19FA63926EA5F4600DCA71F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D19FA63926EA5F4600DCA71F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D19FA63C26EA5F4600DCA71F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D19FA63E26EA5F4800DCA71F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D19FA64126EA5F4800DCA71F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D19FA64326EA5F4800DCA71F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = DeepDa/SupportingFiles/Info.plist; sourceTree = SOURCE_ROOT; };
+		D1B17F2226FDB5FE00908E94 /* FormTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextField.swift; sourceTree = "<group>"; };
+		D1B17F2526FDDFED00908E94 /* FormButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormButton.swift; sourceTree = "<group>"; };
+		D1B17F2B26FE30E000908E94 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D1E3C32926EA620500D975EE /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		D1E3C32B26EA621C00D975EE /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		D1E3C32E26EA62F300D975EE /* BaseViewable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewable.swift; sourceTree = "<group>"; };
@@ -47,17 +71,65 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1E3C36026EAFB7C00D975EE /* SnapKit in Frameworks */,
+				FDC4B909DE0079E2074CA93B /* Pods_DeepDa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4565B6A830EA419BB8AB2A2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94855DD92370B97821E5E028 /* Pods-DeepDa.debug.xcconfig */,
+				485003D1A2D3B476C7FF0348 /* Pods-DeepDa.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		747AD5F85ABC99DC5EA9B59C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAD5F706F9851594DAFD7FCA /* Pods_DeepDa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D165FF2B2709AF540047402F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D165FF382709B7360047402F /* ContentType.swift */,
+				D165FF2C2709AF7B0047402F /* NetworkManager.swift */,
+				D165FF362709B6A80047402F /* HttpMethod.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D165FF2E2709B0ED0047402F /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				D165FF2F2709B0FB0047402F /* NetworkingError.swift */,
+				D165FF342709B4430047402F /* ErrorResponse.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		D165FF312709B3980047402F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D165FF322709B3CC0047402F /* Diary.swift */,
+				D165FF3A2709BE370047402F /* Login.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D19FA62926EA5F4600DCA71F = {
 			isa = PBXGroup;
 			children = (
 				D19FA63426EA5F4600DCA71F /* DeepDa */,
 				D19FA63326EA5F4600DCA71F /* Products */,
+				4565B6A830EA419BB8AB2A2B /* Pods */,
+				747AD5F85ABC99DC5EA9B59C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,8 +144,10 @@
 		D19FA63426EA5F4600DCA71F /* DeepDa */ = {
 			isa = PBXGroup;
 			children = (
-				D19FA64B26EA5FCF00DCA71F /* SupportingFiles */,
+				D1B17F2B26FE30E000908E94 /* GoogleService-Info.plist */,
 				D19FA64926EA5FAB00DCA71F /* AppLifeCycle */,
+				D19FA64B26EA5FCF00DCA71F /* SupportingFiles */,
+				D165FF312709B3980047402F /* Model */,
 				D19FA64A26EA5FC100DCA71F /* View */,
 			);
 			path = DeepDa;
@@ -91,8 +165,9 @@
 		D19FA64A26EA5FC100DCA71F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D1B17F2426FDC77B00908E94 /* CustomUIElements */,
 				D1E3C32D26EA624600D975EE /* Root */,
-				D19FA63926EA5F4600DCA71F /* ViewController.swift */,
+				D19FA63926EA5F4600DCA71F /* SignUpViewController.swift */,
 				D19FA63B26EA5F4600DCA71F /* Main.storyboard */,
 				D19FA64026EA5F4800DCA71F /* LaunchScreen.storyboard */,
 				D1E3C33626EA660A00D975EE /* LoginViewController */,
@@ -103,11 +178,22 @@
 		D19FA64B26EA5FCF00DCA71F /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				D165FF2E2709B0ED0047402F /* Error */,
+				D165FF2B2709AF540047402F /* Network */,
 				D1E3C35B26EAF2B700D975EE /* Extensions */,
 				D19FA63E26EA5F4800DCA71F /* Assets.xcassets */,
 				D19FA64326EA5F4800DCA71F /* Info.plist */,
 			);
 			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		D1B17F2426FDC77B00908E94 /* CustomUIElements */ = {
+			isa = PBXGroup;
+			children = (
+				D1B17F2226FDB5FE00908E94 /* FormTextField.swift */,
+				D1B17F2526FDDFED00908E94 /* FormButton.swift */,
+			);
+			path = CustomUIElements;
 			sourceTree = "<group>";
 		};
 		D1E3C32D26EA624600D975EE /* Root */ = {
@@ -145,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D19FA64626EA5F4800DCA71F /* Build configuration list for PBXNativeTarget "DeepDa" */;
 			buildPhases = (
+				68189EE881FB5FA43973777F /* [CP] Check Pods Manifest.lock */,
 				D19FA62E26EA5F4600DCA71F /* Sources */,
 				D19FA62F26EA5F4600DCA71F /* Frameworks */,
 				D19FA63026EA5F4600DCA71F /* Resources */,
+				AA3A9DB6C6BC726E4E60F976 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -202,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D19FA64226EA5F4800DCA71F /* LaunchScreen.storyboard in Resources */,
+				D1B17F2C26FE30E000908E94 /* GoogleService-Info.plist in Resources */,
 				D19FA63F26EA5F4800DCA71F /* Assets.xcassets in Resources */,
 				D19FA63D26EA5F4600DCA71F /* Main.storyboard in Resources */,
 			);
@@ -209,21 +298,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		68189EE881FB5FA43973777F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeepDa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA3A9DB6C6BC726E4E60F976 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeepDa/Pods-DeepDa-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeepDa/Pods-DeepDa-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DeepDa/Pods-DeepDa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D19FA62E26EA5F4600DCA71F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D1E3C33526EA658D00D975EE /* LoginViewController.swift in Sources */,
-				D19FA63A26EA5F4600DCA71F /* ViewController.swift in Sources */,
+				D19FA63A26EA5F4600DCA71F /* SignUpViewController.swift in Sources */,
 				D1E3C33126EA640C00D975EE /* LoginView.swift in Sources */,
+				D165FF2D2709AF7B0047402F /* NetworkManager.swift in Sources */,
 				D1E3C32A26EA620500D975EE /* BaseViewController.swift in Sources */,
 				D1E3C35D26EAF2D100D975EE /* UIView+.swift in Sources */,
 				D1E3C32C26EA621C00D975EE /* BaseView.swift in Sources */,
+				D165FF352709B4430047402F /* ErrorResponse.swift in Sources */,
+				D165FF372709B6A80047402F /* HttpMethod.swift in Sources */,
 				D1E3C33326EA653400D975EE /* BaseViewControllerable.swift in Sources */,
 				D1E3C32F26EA62F300D975EE /* BaseViewable.swift in Sources */,
 				D19FA63626EA5F4600DCA71F /* AppDelegate.swift in Sources */,
+				D165FF302709B0FB0047402F /* NetworkingError.swift in Sources */,
+				D165FF3B2709BE370047402F /* Login.swift in Sources */,
+				D165FF332709B3CC0047402F /* Diary.swift in Sources */,
 				D19FA63826EA5F4600DCA71F /* SceneDelegate.swift in Sources */,
+				D1B17F2326FDB5FE00908E94 /* FormTextField.swift in Sources */,
+				D1B17F2626FDDFED00908E94 /* FormButton.swift in Sources */,
+				D165FF392709B7360047402F /* ContentType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +507,7 @@
 		};
 		D19FA64726EA5F4800DCA71F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94855DD92370B97821E5E028 /* Pods-DeepDa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -386,6 +527,7 @@
 		};
 		D19FA64826EA5F4800DCA71F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 485003D1A2D3B476C7FF0348 /* Pods-DeepDa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
